@@ -1,1 +1,93 @@
+<!-- DEVELOPER: Joseph Bradley, IS117-XXX, Spring 2026 -->
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wildlife Explorer</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR WITH DROPDOWN (2-TIER NAVIGATION) -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Wildlife Explorer</a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+
+        <!-- DROPDOWN -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Animals</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="mammals.html">Mammals</a></li>
+            <li><a class="dropdown-item" href="birds.html">Birds</a></li>
+            <li><a class="dropdown-item" href="reptiles.html">Reptiles</a></li>
+            <li><a class="dropdown-item" href="amphibians.html">Amphibians</a></li>
+            <li><a class="dropdown-item" href="fish.html">Fish</a></li>
+            <li><a class="dropdown-item" href="invertebrates.html">Invertebrates</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO SECTION (DIFFERENT FROM OTHER PAGES) -->
+<div class="container text-center mt-5">
+    <h1>Welcome to Wildlife Explorer</h1>
+    <p class="lead">Discover animals from around the world</p>
+</div>
+
+<!-- FEATURED CARDS -->
+<div class="container mt-4">
+  <div class="row">
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?tiger" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Tiger</h5>
+          <p class="card-text">A powerful predator found in forests.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?eagle" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Eagle</h5>
+          <p class="card-text">Known for incredible vision and flight.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?octopus" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Octopus</h5>
+          <p class="card-text">Highly intelligent sea creature.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
