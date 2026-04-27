@@ -1,1 +1,109 @@
+<!-- DEVELOPER: Your Name, IS117-XXX, Spring 2026 -->
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mammals - Wildlife Explorer</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Wildlife Explorer</a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Animals</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="mammals.html">Mammals</a></li>
+            <li><a class="dropdown-item" href="birds.html">Birds</a></li>
+            <li><a class="dropdown-item" href="reptiles.html">Reptiles</a></li>
+            <li><a class="dropdown-item" href="amphibians.html">Amphibians</a></li>
+            <li><a class="dropdown-item" href="fish.html">Fish</a></li>
+            <li><a class="dropdown-item" href="invertebrates.html">Invertebrates</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- PAGE CONTENT -->
+<div class="container mt-4">
+    <h2 class="mb-4">Mammals</h2>
+
+    <div class="row">
+
+        <!-- CARD 1 -->
+        <div class="col-md-4">
+            <div class="card h-100">
+                <img src="images/cheetah.jpg" class="card-img-top" alt="Cheetah">
+                <div class="card-body">
+                    <h5 class="card-title">Cheetah</h5>
+                    <p class="card-text">Habitat: Grasslands</p>
+                    <p class="card-text">Diet: Carnivore</p>
+                    <p class="card-text">World’s fastest land animal.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="col-md-4">
+            <div class="card h-100">
+                <img src="images/elephant.jpg" class="card-img-top" alt="Elephant">
+                <div class="card-body">
+                    <h5 class="card-title">Elephant</h5>
+                    <p class="card-text">Habitat: Savannas</p>
+                    <p class="card-text">Diet: Herbivore</p>
+                    <p class="card-text">Largest land animal on Earth.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="col-md-4">
+            <div class="card h-100">
+                <img src="images/polarbear.jpg" class="card-img-top" alt="Polar Bear">
+                <div class="card-body">
+                    <h5 class="card-title">Polar Bear</h5>
+                    <p class="card-text">Habitat: Arctic</p>
+                    <p class="card-text">Diet: Carnivore</p>
+                    <p class="card-text">Excellent swimmers in icy waters.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
