@@ -16,3 +16,13 @@
 .row {
     row-gap: 20px;
 } 
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+h2 {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
