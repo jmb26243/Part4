@@ -66,3 +66,30 @@ h1, h2 {
 .btn-primary:hover {
     background-color: #1f78d1; 
 }
+
+
+.dropdown-menu {
+    padding: 10px 0;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    min-width: 200px;
+}
+
+
+.dropdown-item {
+    padding: 10px 20px;
+    font-size: 1.05rem;
+    transition: background-color 0.2s ease, padding-left 0.2s ease;
+}
+
+
+.dropdown-item:hover {
+    background-color: #e6f2ff; 
+    padding-left: 25px;
+}
+
+
+.dropdown-item + .dropdown-item {
+    margin-top: 2px;
+}
