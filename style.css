@@ -26,3 +26,33 @@ h2 {
     font-weight: 600;
     letter-spacing: 0.5px;
 }
+
+/* Background + base text */
+body {
+    background-color: #f4f7f2;
+    color: #2f3e2f;
+}
+
+/* Navbar slight tweak */
+.navbar {
+    background-color: #2f5d50 !important;
+}
+
+/* Headings */
+h1, h2 {
+    color: #1b4332;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+/* Image consistency */
+.card img {
+    height: 220px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
