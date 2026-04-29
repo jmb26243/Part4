@@ -27,17 +27,18 @@ h2 {
     letter-spacing: 0.5px;
 }
 
+/* LIGHT BLUE THEME */
 body {
-    background-color: #f4f7f2 !important;
-    color: #2f3e2f;
+    background-color: #f0f6fb !important;  
+    color: #2c3e50; 
 }
 
 .navbar.bg-dark {
-    background-color: #2f5d50 !important;
+    background-color: #1f4e79 !important; 
 }
 
 h1, h2 {
-    color: #1b4332 !important;
+    color: #1b3a57 !important; 
 }
 
 .card {
@@ -56,11 +57,12 @@ h1, h2 {
     box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 
+
 .btn-primary {
-    background-color: #40916c;
+    background-color: #4da3ff; 
     border: none;
 }
 
 .btn-primary:hover {
-    background-color: #2d6a4f;
+    background-color: #1f78d1; 
 }
