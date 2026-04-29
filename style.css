@@ -27,20 +27,17 @@ h2 {
     letter-spacing: 0.5px;
 }
 
-/* Background + base text */
 body {
-    background-color: #f4f7f2;
+    background-color: #f4f7f2 !important;
     color: #2f3e2f;
 }
 
-/* Navbar slight tweak */
-.navbar {
+.navbar.bg-dark {
     background-color: #2f5d50 !important;
 }
 
-/* Headings */
 h1, h2 {
-    color: #1b4332;
+    color: #1b4332 !important;
 }
 
 .card {
@@ -49,10 +46,21 @@ h1, h2 {
     transition: all 0.3s ease;
 }
 
-/* Image consistency */
 .card img {
     height: 220px;
     object-fit: cover;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.btn-primary {
+    background-color: #40916c;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #2d6a4f;
 }
